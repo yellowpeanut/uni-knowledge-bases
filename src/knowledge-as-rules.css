@@ -1,0 +1,83 @@
+#project-1{
+    font-size: large;
+}
+
+.select{
+    width: 90vw;
+    height: 150px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#symptoms-list{
+    width: 800px;
+    height: 40px;
+    font-size: large;
+    margin-right: 25px;
+}
+#symptoms-list option{
+    width: 800px;
+    height: 40px;
+    font-size: large;
+}
+
+.btn{
+    width: auto;
+    height: auto;
+
+    /* color: #fff;
+    background-color: #646cff; */
+}
+
+.current-symptoms{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content: flex-start;
+}
+.symptom-box{
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 10px 5px 10px;
+    padding: 12.5px 15px 5px 15px;
+    text-align: center;
+    background-color: #646cff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.35s;
+}
+.symptom-box:hover{
+    background-color: #d64c4c;
+}
+
+.get-illness{
+    width: 90vw;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diagnosis{
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    /* border: 1px #646cff21 solid; */
+}
+.diagnosis-text{
+    font-size: x-large;
+    display: block;
+}

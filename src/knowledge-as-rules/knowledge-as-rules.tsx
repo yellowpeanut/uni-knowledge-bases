@@ -39,10 +39,6 @@ export function KnowledgeAsRules () {
         setSymptomsState({...current_symptoms})
     }
 
-    function checkIllness(){
-
-    }
-
     function addSymptom(){
         let select = (document.getElementById("symptoms-list")) as HTMLSelectElement
         let ind = select.selectedIndex+1

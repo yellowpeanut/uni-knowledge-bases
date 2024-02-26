@@ -11,13 +11,13 @@
     justify-content: center;
 }
 
-#symptoms-list{
+#symptoms-list, #illnesses-list{
     width: 800px;
     height: 40px;
     font-size: large;
     margin-right: 25px;
 }
-#symptoms-list option{
+#symptoms-list option, #illnesses-list option{
     width: 800px;
     height: 40px;
     font-size: large;
@@ -57,7 +57,7 @@
     background-color: #d64c4c;
 }
 
-.get-illness{
+.get-illness, .check-illness{
     width: 90vw;
     height: 80px;
     margin: auto;
@@ -80,4 +80,39 @@
 .diagnosis-text{
     font-size: x-large;
     display: block;
+}
+
+.swap{
+    width: 90vw;
+    height: auto;
+    margin-top: 5vh;
+}
+
+.btn-swap{
+    float:right;
+}
+
+.swap-visible{
+    display:block;
+}
+
+.swap-hidden{
+    display: none;
+}
+
+.logs{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: x-large;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+
+    border: 2px #646cff solid;
+    border-radius: 12.5px;
 }

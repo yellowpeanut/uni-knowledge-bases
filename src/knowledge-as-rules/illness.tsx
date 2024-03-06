@@ -1,4 +1,6 @@
-class Illness {
+import Symptom from "./symptom.tsx"
+
+export default class Illness {
 
     id: number;
     name: string;

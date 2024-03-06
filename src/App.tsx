@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { KnowledgeAsRules } from './knowledge-as-rules/knowledge-as-rules.tsx'
 import { UnclearInfo } from './unclear-info.tsx'
 import { NeuralNetwork } from './neural-network.tsx'
+import { Kar } from './knowledge-as-rules/kar.tsx'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -25,6 +23,7 @@ function App() {
         </div>
 
         <div className="project-frame">
+        {/* <Kar /> */}
         <KnowledgeAsRules />
         <UnclearInfo />
         <NeuralNetwork />

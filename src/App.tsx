@@ -1,7 +1,7 @@
 import './App.css'
 import { KnowledgeAsRules } from './knowledge-as-rules/knowledge-as-rules.tsx'
 import { UnclearInfo } from './unclear-info/unclear-info.tsx'
-import { NeuralNetwork } from './neural-network.tsx'
+import { NeuralNetwork } from './neural-network/neural-network.tsx'
 
 
 

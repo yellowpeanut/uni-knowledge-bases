@@ -1,0 +1,48 @@
+
+.input-field{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 3vh;
+}
+
+.input-field input{
+    width: 15vw;
+}
+
+.charts{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.setup-buttons{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+.setup-buttons button{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+.images{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}

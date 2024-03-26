@@ -180,7 +180,7 @@ export function NeuralNetwork () {
                                 neuron.map<LineSeriesType>((_, index) =>
                                 ({data: graph_data[ind][index],
                                 showMark: false,
-                                label: "x" + index.toString(),
+                                label: "w" + index.toString(),
                                 color: colours[index]}) as LineSeriesType
                                 )
                             }
@@ -190,8 +190,8 @@ export function NeuralNetwork () {
                     </div>
                     <div className="chart-info">
                         <h5>Нейрон {ind+1}</h5>
-                        <p>Начальные х: [ {(weights[0][ind]).map(w => w.toPrecision(4).toString() + " ")}]</p>
-                        <p>Конечные х: [ {(weights[num_epochs][ind]).map(w => w.toPrecision(4).toString() + " ")}]</p>
+                        <p>Начальные веса: [ {(weights[0][ind]).map(w => w.toPrecision(4).toString() + " ")}]</p>
+                        <p>Конечные веса: [ {(weights[num_epochs][ind]).map(w => w.toPrecision(4).toString() + " ")}]</p>
                     </div>
                     </div>)
                  ): (<></>)}
